@@ -17,7 +17,7 @@ defmodule ZuulMonitorWeb.Router do
   scope "/", ZuulMonitorWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    live("/", Build)
   end
 
   # Other scopes may use custom stacks.

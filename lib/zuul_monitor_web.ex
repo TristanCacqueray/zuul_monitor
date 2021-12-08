@@ -24,6 +24,8 @@ defmodule ZuulMonitorWeb do
       import Plug.Conn
       import ZuulMonitorWeb.Gettext
       alias ZuulMonitorWeb.Router.Helpers, as: Routes
+
+      import Phoenix.LiveView.Controller
     end
   end
 
